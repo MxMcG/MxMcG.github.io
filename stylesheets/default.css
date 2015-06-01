@@ -1,0 +1,84 @@
+body {
+  font-family: lato;
+  background-color: #FFFAD5;
+}
+
+h1 {
+  color: #286363;
+  text-align: center;
+  margin-top: 5%;
+
+}
+
+a:link {
+  color: #2B9E36;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E86F2A;
+}
+
+.contact-link {
+  position: absolute;
+  right: 5%;
+  padding-top: 15px;
+
+}
+
+.personal-link {
+  position: absolute;
+  left: 22.66%;
+  padding-top: 20px;
+}
+
+.portfolio-link {
+  position: absolute;
+  left: 38.33%;
+  padding-top: 20px;
+}
+
+.blog-link {
+  position: absolute;
+  right: 38.33%;
+  padding-top: 20px;
+}
+
+.music-link {
+  position: absolute;
+  right: 22.66%;
+  padding-top: 20px;
+}
+
+.blog-img-2 {
+  height: 15em;
+  width: 25em;;
+  padding-top: 8em;
+  margin-left: 6em;
+  display: inline-block;
+}
+
+.blog-img-1 {
+  height: 15em;
+  width: 25em;
+  padding-top: 4em;
+  margin-left: 55%;
+  display: inline-block;
+}
+
+#home-txt-top {
+  display: inline-block;
+  position: relative;
+  bottom: 250px;
+  margin-left: 600px;
+  margin-right: 100px;
+}
+
+#home-txt-bottom {
+  display: inline-block;
+  position: relative;
+  margin-right: 600px;
+  bottom: 250px;
+  margin-left: 50px;
+}
