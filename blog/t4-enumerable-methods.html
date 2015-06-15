@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Template</title>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  </head>
+
+  <body>
+    <h3>Max McGee Design</h3>
+      <a href="#">Contact</a><br>
+      <a href="#">Personal</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Blog</a>
+      <a href="#">Music</a><br>
+
+      <h2>An overview of Enumerable#map</h2>
+      <h3>How map works to help work with collection objects in Ruby</h3>
+      <h4>June 12, 2015</h4>
+
+      <img src="#" alt="#"/>
+
+      <p>Enumerable methods are a very handy aspect of Ruby that provide many ways of doing something to every element of collection objects such as arrays or hashes. When building programs and websites, being able to perform actions over groups of data is an important necesssity our work. #map in particular is a method that is useful to use with arrays and hashes.
+      </p>
+
+      <p>The map method is useful because it allows us to select all items in an array or hash and modify them all. The map method is called on an array and is followed by a very useful code block which allows map to return an object filled with watever the block returns each time. Most people visualize #map as doing something and collecting the results. Other see it as remapping your original object through some sort of transformation. No matter how you look at #map, it is important to understand that it allows developers to perform a specific action across an entire collection object's elements.
+      </p>
+
+      <p>Now, lets look at a few examples of map and how it comes in handy.
+
+        > my_array.map{|num| num**2 }
+        => [4,16,36,64,10000]
+
+        In the simple example above, we see map being used to transform the original array to a new object containing each number  multiplied by 2 twice.
+
+        (1..4).map { |i| i*i }      #=> [1, 4, 9, 16]
+
+        Above is an example of #map being used on a simple range of numbers. Note how i is multiplied by itself to create the results of the new array object.
+
+        #Map is an important widely used tool that allows developers to perform a code block across an array or hash of elements and any collection object
+
+
+      </p>
+
+  </body>
+</html>
