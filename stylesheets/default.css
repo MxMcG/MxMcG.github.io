@@ -1,84 +1,94 @@
+
+
 body {
   font-family: lato;
-  background-color: #FFFAD5;
+  background-color: #6DD988;
+
 }
 
 h1 {
-  color: #286363;
+  color: white;
   text-align: center;
-  margin-top: 5%;
-
+  padding: 2em 1em;
+  margin: 0;
+  font-size: 3em;
 }
 
-a:link {
-  color: #2B9E36;
-  font-size: 18px;
+.nav-bar {
+  margin-bottom: 6em;
+}
+
+.contact-link {
+  color: white;
+  font-size: 1.5em;
   text-decoration: none;
+}
+
+.nav-bar a {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  position: relative;
+  left: 30%;
+  padding: .6em;
 }
 
 a:hover {
   color: #E86F2A;
 }
 
-.contact-link {
-  position: absolute;
-  right: 5%;
-  padding-top: 15px;
+p {
+  padding: 1em 3em 1em 3em;
+  color: black;
+}
 
+#column1, #column2 {
+  float: left;
+  width: 50%;
+  margin: 0;
+  position: relative;
+}
+
+.contact-link {
+  position: relative;
+  float: right;
+  right: 4em;
+  font-size: 1.25em;
 }
 
 .personal-link {
-  position: absolute;
-  left: 22.66%;
-  padding-top: 20px;
+
 }
 
 .portfolio-link {
-  position: absolute;
-  left: 38.33%;
-  padding-top: 20px;
+
 }
 
 .blog-link {
-  position: absolute;
-  right: 38.33%;
-  padding-top: 20px;
+
 }
 
 .music-link {
-  position: absolute;
-  right: 22.66%;
-  padding-top: 20px;
+
 }
 
-.blog-img-2 {
-  height: 15em;
-  width: 25em;;
-  padding-top: 8em;
-  margin-left: 6em;
-  display: inline-block;
+.blog-content {
+
 }
 
-.blog-img-1 {
+.blog-img {
   height: 15em;
   width: 25em;
-  padding-top: 4em;
-  margin-left: 55%;
-  display: inline-block;
+  border-radius:10%;
+  position: relative;
+  left: 4.531em;
 }
 
-#home-txt-top {
-  display: inline-block;
-  position: relative;
-  bottom: 250px;
-  margin-left: 600px;
-  margin-right: 100px;
+.blog-title {
+  display: relative;
+  left: 3em;
 }
 
-#home-txt-bottom {
-  display: inline-block;
-  position: relative;
-  margin-right: 600px;
-  bottom: 250px;
-  margin-left: 50px;
-}
+
+
+
