@@ -1,9 +1,8 @@
-
+/* Default body settings */
 
 body {
   font-family: lato;
-  background-color: #6DD988;
-
+  background-color: #b5b5b5;
 }
 
 h1 {
@@ -14,33 +13,41 @@ h1 {
   font-size: 3em;
 }
 
-.nav-bar {
-  margin-bottom: 6em;
+#nav-bar {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-bottom: 8em;
+  padding-left: 0;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
-.contact-link {
-  color: white;
-  font-size: 1.5em;
-  text-decoration: none;
-}
-
-.nav-bar a {
-  color: white;
-  font-size: 1.5em;
-  text-decoration: none;
-  position: relative;
-  left: 30%;
+li {
+  display: inline;
   padding: .6em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
 }
 
 a:hover {
   color: #E86F2A;
 }
 
-p {
-  padding: 1em 3em 1em 3em;
-  color: black;
+.contact-link {
+  position: relative;
+  float: right;
+  right: 4em;
+  font-size: 1.25em;
+  color: white;
+  text-decoration: none;
 }
+
+/* Two text columns*/
 
 #column1, #column2 {
   float: left;
@@ -49,32 +56,14 @@ p {
   position: relative;
 }
 
-.contact-link {
-  position: relative;
-  float: right;
-  right: 4em;
-  font-size: 1.25em;
+/* Text in body */
+
+p {
+  padding: 1em 3em 1em 3em;
+  color: black;
 }
 
-.personal-link {
-
-}
-
-.portfolio-link {
-
-}
-
-.blog-link {
-
-}
-
-.music-link {
-
-}
-
-.blog-content {
-
-}
+/* images in body */
 
 .blog-img {
   height: 15em;
