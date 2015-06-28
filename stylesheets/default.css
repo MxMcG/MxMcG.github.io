@@ -1,16 +1,18 @@
 /* Default body settings */
 
-body {
+html {
   font-family: lato;
-  background-color: #b5b5b5;
+  background-color: #79BD8F;
 }
 
 h1 {
-  color: white;
+
   text-align: center;
-  padding: 2em 1em;
+  padding: 1em;
   margin: 0;
-  font-size: 3em;
+  text-decoration: none;
+  color: red;
+  font-size: 2.5em;
 }
 
 #nav-bar {
@@ -35,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #E86F2A;
+  color: #FF6138;
 }
 
 .contact-link {
@@ -60,22 +62,31 @@ a:hover {
 
 p {
   padding: 1em 3em 1em 3em;
-  color: black;
+  color: white;
 }
 
 /* images in body */
 
 .blog-img {
-  height: 15em;
-  width: 25em;
+  height: 10em;
+  width: 15em;
   border-radius:10%;
   position: relative;
   left: 4.531em;
+  display: inline-block;
 }
 
+/* Blog */
+
 .blog-title {
-  display: relative;
-  left: 3em;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 15%;
+}
+
+.blog-content {
+  margin: 0;
 }
 
 
