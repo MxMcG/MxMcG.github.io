@@ -1,0 +1,52 @@
+/* Tixzoo CSS Page */
+
+body {
+  background-color: lightgray;
+  margin: 0;
+
+}
+
+.nav-bar {
+  background-color: darkblue;
+  width: 100%;
+  padding: 1.5em 1.5em;
+  display: inline-block;
+}
+
+.main-banner {
+  padding: 0;
+  margin: 0;
+  height: 25em;
+  width: 100%;
+  background-image: url(https://unsplash.imgix.net/photo-1428342319217-5fdaf6d7898e?fit=crop&fm=jpg&h=450&q=75&w=950);
+  display: inline-block;
+}
+
+.main-features {
+  padding: 0;
+  margin: 0;
+  height: 25em;
+  width: 100%;
+  background-color: red;
+  display: inline-block;
+}
+
+#column-1 {
+  position: relative;
+  width: 33.33%;
+  position: inline;
+}
+
+.main-about {
+  padding: 0;
+  margin: 0;
+  height: 25em;
+  width: 100%;
+  background-color: green;
+  display: inline-block;
+}
+
+footer {
+  background-color: yellow;
+  padding: 1.5em 1.5em;
+}

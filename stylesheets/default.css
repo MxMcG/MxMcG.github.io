@@ -1,8 +1,10 @@
+
+
 /* Default body settings */
 
 html {
   font-family: lato;
-  background-color: #79BD8F;
+  background-color: darkblue;
 }
 
 h1 {
@@ -28,6 +30,8 @@ h1 {
 li {
   display: inline;
   padding: .6em;
+  color: white;
+
 }
 
 a {
@@ -51,11 +55,23 @@ a:hover {
 
 /* Two text columns*/
 
+@media screen and (min-width:750px) {
 #column1, #column2 {
   float: left;
   width: 50%;
   margin: 0;
   position: relative;
+}
+
+.blog-img {
+  width: 80%;
+  border-radius:10%;
+  position: relative;
+  left: 10%;
+  right: 20%
+  display: inline-block;
+}
+
 }
 
 /* Text in body */
@@ -67,14 +83,7 @@ p {
 
 /* images in body */
 
-.blog-img {
-  height: 10em;
-  width: 15em;
-  border-radius:10%;
-  position: relative;
-  left: 4.531em;
-  display: inline-block;
-}
+
 
 /* Blog */
 
@@ -87,6 +96,25 @@ p {
 
 .blog-content {
   margin: 0;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:749px) {
+  #column1, #column2 {
+  display: block;
+}
+
+.blog-img {
+  left: 0;
+  width: 90%;
+  border-radius: 10%;
+  position: relative;
+  left: 5%;
+  right: 5%;
+  display: inline-block;
+}
+
 }
 
 
