@@ -3,51 +3,57 @@
   <head>
     <title>Tixzoo</title>
     <meta charset="UTF-8">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/tixzoo.css">
   </head>
 
   <body>
   <div class="nav-bar">
+    <div id="nav-input">
     <input type="text" name="lastname" value="Search by artist, user, or venue">
-    <input type="submit" value="Search">
+    <button type="button" id="nav-button">&#128269;</button>
+  </div>
     <a id="logo" href="#">Tixzoo</a>
-    <a href="#">Sign Up</a>
-    <a href="#">Log In</a>
+    <ul>
+      <li><a href="#">Sign Up</a></li>
+      <li><a href="#">Log In</a></li>
+    </ul>
   </div>
   <div class="main-banner">
     <h1>Ticket Exchange Simplified</h1>
-    <h3> Buy Authenticated Tickets From Your Peers</h3>
-    <button type="button">Sign Up</button>
-    <button type="button">About Us</button>
+    <h2> Buy Authenticated Tickets From Your Peers</h2>
+    <button id="main-button-1"type="button">Sign Up</button>
+    <button id="main-button-2" type="button">About Us</button>
   </div>
 
   <div class="main-features">
-    <h2>Features</h2>
-      <section id="column-1"><h3>Peer To Peer</h3>
+    <h1>Features</h1>
+      <div class="column"><h2>Peer To Peer</h2>
       <p>Tixzoo Is A Peer To Peer Ticket Exchange Platform</p>
-      </section>
-      <section "column-2"><h3>Security</h3>
-      <p>Every User's Exchange, Identity, And Payment Is Secured And Authenticated</p>
-      </section>
-      <section "column-3"><h3>Affordability</h3>
-        <p>Tixzoo Charges The Bare Minimum For Transaction Fees And Offers Rewards As Long Term Incentives</p>
-      </section>
+      </div>
+      <div class="column"><h2>Security</h2>
+      <p>Every user's exchange, identity, and payment is secured and authenticated</p>
+      </div>
+      <div class="column"><h2>Affordability</h2>
+        <p>Tixzoo charges the bare minimum for transaction fees and offers rewards as long term incentives</p>
+      </div>
   </div>
 
   <div class="main-about">
-    <h2>About Us</h2>
-      <p>As Concert Goers and Ticket Resellers, We Have Dealt With The Frustration Of Trying To Sell And Buy Tickets At A Price We Want.</p>
-      <p>Tixzoo's Target Demographic Loves Music And Goes The Distance To Support Their Favorite Artists Everyday.</p>
+    <h1>About Us</h1>
+      <p>As concert goers and ticket resellers, we have dealt with the frustration of trying to sell and buy tickets at a price we want.</p>
+      <p>Tixzoo users love music and go the distance to support their favorite artists everyday.</p>
   </div>
 
   <footer>
-  <a href="#">Home</a>
-  <a href="#">Careers</a>
-  <a href="#">Contact Us</a>
+  <a href="#">Home</a>|
+  <a href="#">Careers</a>|
+  <a href="#">Contact Us</a>|
   <a href="#">Developers</a>
+  <div id="footer-input">
   <input type="text" name="lastname" value="Your email address...">
-    <input type="submit" value="Submit">
+  <button type="button">Submit</button>
+  </div>
   </footer>
 
   </body>
