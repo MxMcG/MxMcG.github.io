@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Template</title>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  </head>
+
+  <body>
+    <h3>Max McGee Design</h3>
+      <a href="#">Contact</a><br>
+      <a href="#">Personal</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Blog</a>
+      <a href="#">Music</a><br>
+
+      <h2>Understanding the #cycle Method</h2>
+      <h3>#cycle: how it works and how it is practical.</h3>
+      <h4>9 July 2015</h4>
+
+      <img src="#" alt="#"/>
+
+      <p>When we first look at #cycle in the Ruby documentation, we can understand that it enables us to cycle through a data stucture a certain amount of times and perform a code block on that data structure. For example,
+        array = [1, 2, 3]
+        array.cycle(2) {|x| puts x}
+        => 1, 2, 3, 1, 2, 3
+      Above, we see indeed how when cycle is called on a data structure, it is passed an integer, here 2 - and that integer determines how many times that the elements will be cycled through. Now if there is no integer passed through the parentheses following the method call -> array.cycle() -> then the array will be cycled through FOREVER. This is not a good thing as unlimited loops most usually break our code and mess everything up!
+      </p>
+
+      <p>Although the #cycle method is quite useful, there are two problems to watch out for when using it. First, the argument to #cycle specifies the number of times to cycle but not the number of elements to cycle through. Second, if you are trying to cycle infinetly, all of your relevant logic must go inside a code block because the code will never leave. I think that cycle is an interesting and powerful method that may be used for specific purposes where it makes sense. Overall, when we use #cycle, we just need to know why we are using it. Most typically, we may use enumerable methods on cycle when you do not include a code block. Hopefully as more challenges come our way, we will encounter a situation where it seems right to implement the cycle method.
+      </p>
+
+  </body>
+</html>
