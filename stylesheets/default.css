@@ -1,122 +1,102 @@
+/* Default Body Settings */
 
-
-/* Default body settings */
-
-html {
-  font-family: lato;
-  background-color: darkblue;
-}
-
-h1 {
-
-  text-align: center;
-  padding: 1em;
-  margin: 0;
-  text-decoration: none;
-  color: red;
-  font-size: 2.5em;
-}
-
-#nav-bar {
-  list-style-type: none;
-  margin: 0 auto;
-  padding-bottom: 8em;
-  padding-left: 0;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-}
-
-li {
-  display: inline;
-  padding: .6em;
-  color: white;
-
+body {
+width: 100%;
+margin: 0 auto;
+font-family: lato;
 }
 
 a {
   text-decoration: none;
+  color: black
+}
+
+#nav, #content, header, footer {
+  text-align: center;
+}
+
+#nav, footer {
+  padding: 0.5em 0;
+  background-color: #00585F;
+}
+
+#nav a {
+  text-decoration: none;
   color: white;
-  font-size: 1.5em;
 }
 
 a:hover {
-  color: #FF6138;
+ color: orange;
 }
 
-.contact-link {
-  position: relative;
-  float: right;
-  right: 4em;
-  font-size: 1.25em;
+/* Header content */
+
+header {
+  background-color: #00585F;
+  padding: 2.5%;
+}
+
+header a {
   color: white;
   text-decoration: none;
 }
 
-/* Two text columns*/
-
-@media screen and (min-width:750px) {
-#column1, #column2 {
-  float: left;
-  width: 50%;
+h1 {
   margin: 0;
-  position: relative;
+  font-size: 2.75em;
 }
 
-.blog-img {
-  width: 80%;
-  border-radius:10%;
-  position: relative;
-  left: 10%;
-  right: 20%
-  display: inline-block;
+.contact {
+  position: absolute;
+  right: 3%;
 }
 
-}
-
-/* Text in body */
-
-p {
-  padding: 1em 3em 1em 3em;
+#nav {
   color: white;
 }
 
-/* images in body */
-
-
-
-/* Blog */
-
-.blog-title {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: 15%;
+li {
+  display: inline;
+  padding: 0.5em;
+  font-size: 1.25em;
 }
+
+/* Main content */
+
+#content {
+  overflow: auto;
+  color: black;
+  height: 40%;
+  background-color: #FCFCF3;
+}
+
+img {
+  width: 40%;
+  border-radius: 1.5em;
+}
+
+/* Footer content */
+
+footer {
+  color: white;
+}
+
+/* Blog content */
 
 .blog-content {
   margin: 0;
+  text-align: center;
 }
 
-/* Media Queries */
+.blog-title {
+  color: black;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
 
-@media screen and (max-width:749px) {
-  #column1, #column2 {
-  display: block;
 }
 
 .blog-img {
-  left: 0;
-  width: 90%;
-  border-radius: 10%;
-  position: relative;
-  left: 5%;
-  right: 5%;
-  display: inline-block;
+  width: 10%;
 }
-
-}
-
-
-
 
