@@ -41,6 +41,10 @@ header a {
   text-decoration: none;
 }
 
+#nav a:hover {
+ color: orange;
+}
+
 h1 {
   margin: 0;
   font-size: 2.75em;
@@ -55,6 +59,11 @@ h1 {
   color: white;
 }
 
+ul {
+  text-align: center;
+  padding: 0;
+}
+
 li {
   display: inline;
   padding: 0.5em;
@@ -63,16 +72,43 @@ li {
 
 /* Main content */
 
-#content {
+#content-container {
   overflow: auto;
   color: black;
-  height: 40%;
+  height: 150vw;
   background-color: #FCFCF3;
 }
 
-img {
-  width: 40%;
+#homepage-txt1, #homepage-txt2 {
+  position: absolute;
+  width: 35vw;
+  margin: 0;
+}
+
+#homepage-txt1 {
+  left: 57vw;
+  top: 30vw;
+}
+
+#homepage-txt2 {
+  left: 9vw;
+  top: 70vw;
+}
+
+#homepage-img1 {
+  width: 35vw;
   border-radius: 1.5em;
+  position: absolute;
+  top: 30vw;
+  left: 9vw;
+}
+
+#homepage-img2 {
+  width: 35vw;
+  border-radius: 1.5em;
+  position: absolute;
+  top: 70vw;
+  left: 57vw;
 }
 
 /* Footer content */
