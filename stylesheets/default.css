@@ -119,20 +119,55 @@ footer {
 
 /* Blog content */
 
-.blog-content {
+.blog-content-container {
   margin: 0;
-  text-align: center;
+  height: 120em;
+  width: 100%;
+  background-color: #FCFCF3;
 }
 
-.blog-title {
-  color: black;
-  text-align: center;
-  margin-right: 20%;
-  margin-left: 20%;
+.blog-content {
+ width: 70vw;
 
+ }
+
+.blog-info {
+  color: black;
+  position: relative;
+  left: 15vw;
+  top: 10vw;
+  padding-bottom: 3vw;
+  margin-top: 2em;
+  border-bottom: 1px black solid;
+}
+
+.blog-info:hover {
+  background-color: lightblue;
+  border-radius: 1.7em 2em;
+
+}
+
+#blog-title {
+  position: absolute;
+  top: 0vw;
+  left: 25vw;
+  font-size: 1.3em;
+}
+
+.blog-info p {
+  position: absolute;
+  top: 2vw;
+  left: 25vw;
+}
+
+#blog-date {
+  position: absolute;
+  top: 0em;
+  right: 1.5em;
 }
 
 .blog-img {
-  width: 10%;
+  width: 20vw;
+  border-radius: 3em;
 }
 
