@@ -4,35 +4,44 @@
     <title>Blog Template</title>
     <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   </head>
 
   <body>
-    <h3>Max McGee Design</h3>
-      <a href="#">Contact</a><br>
-      <a href="#">Personal</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Blog</a>
-      <a href="#">Music</a><br>
 
+  <header>
+    <h1><a href="../index.html">MxMcG Design</a></h1>
+    <a class="contact" href="../contact.html">Contact</a><br>
+  </header>
+
+  <div id="nav">
+    <ul id="nav-bar">
+      <li><a class="personal-link" href="../personal.html">Personal</a></li>|
+      <li><a class="portfolio-link" href="../projects/index.html">Portfolio</a></li>|
+      <li><a class="blog-link" href="blog-index.html">Blog</a></li>|
+      <li><a class="music-link" href="../music.html">Music</a></li><br>
+    </ul>
+  </div>
+
+      <div class="blog-content-container">
+      <div class="blog-post-title">
       <h2>Variable Scope: Ruby</h2>
       <h3>How to know what type of variable to use.</h3>
       <h4>21 July 2015</h4>
+      </div>
 
-      <img src="#" alt="#"/>
-
-      <p>
+      <p class="blog-post-p1">
         Ruby is a great language because it has variables that mark their scope based on the first character in their name. Just to note, I will not be addressing Constant variables, as they are not as widely used.<br> Without any further delay, let's go over the 4 most common variables in Ruby: Local, Instance, Class, and Global.
       </p>
 
 
-      <p>Local Variables are conventionally all lowercase and utilize underscores in their syntax. These variables are stuck inside their method and cannot be used outside of this scope. Essentially these are good to use if you know they only need to be included in one specific code block and no where else. Instance Variables are a largely used type especially in classes. These variables always start with a @ and can be used across all methods in a class instance. These variables are able to perform their duty within the scope of their class and not anywhere outside or across classes. One of the trickiest for me to wrap my head around has been Class Variables. These are always started with a @@ and can be changed by any instance of a class. When the value of a class variable is set, it will affect the new class is placed into based on its previously defined value. These variables carry over their data into multiple different classes and are therefore useful in that respect.
+      <p class="blog-post-p2">Local Variables are conventionally all lowercase and utilize underscores in their syntax. These variables are stuck inside their method and cannot be used outside of this scope. Essentially these are good to use if you know they only need to be included in one specific code block and no where else. Instance Variables are a largely used type especially in classes. These variables always start with a @ and can be used across all methods in a class instance. These variables are able to perform their duty within the scope of their class and not anywhere outside or across classes. One of the trickiest for me to wrap my head around has been Class Variables. These are always started with a @@ and can be changed by any instance of a class. When the value of a class variable is set, it will affect the new class is placed into based on its previously defined value. These variables carry over their data into multiple different classes and are therefore useful in that respect.
       Finally, the Global variable starts with a $ and can go anywhere in your program but affects every place that it is put. These variables are quite tricky and are easy to create bugs with, so most ruby devs try to use them as minimally as possible.
 
       </p>
 
 
-      <p> As demonstrated, the main 4 variable types in Ruby all have important distinguished roles in a program. The most common variables I have used thus far are local and instance, and I am excited to see how class variables are used in more complicated cross-class methods. Keep away from the global variable and your life will be much easier!
+      <p class="blog-post-p3"> As demonstrated, the main 4 variable types in Ruby all have important distinguished roles in a program. The most common variables I have used thus far are local and instance, and I am excited to see how class variables are used in more complicated cross-class methods. Keep away from the global variable and your life will be much easier!
 
       </p
 

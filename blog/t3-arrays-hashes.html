@@ -4,31 +4,40 @@
     <title>Blog Template</title>
     <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   </head>
 
   <body>
-    <h3>Max McGee Design</h3>
-      <a href="#">Contact</a><br>
-      <a href="#">Personal</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Blog</a>
-      <a href="#">Music</a><br>
 
+  <header>
+    <h1><a href="../index.html">MxMcG Design</a></h1>
+    <a class="contact" href="../contact.html">Contact</a><br>
+  </header>
+
+  <div id="nav">
+    <ul id="nav-bar">
+      <li><a class="personal-link" href="../personal.html">Personal</a></li>|
+      <li><a class="portfolio-link" href="../projects/index.html">Portfolio</a></li>|
+      <li><a class="blog-link" href="blog-index.html">Blog</a></li>|
+      <li><a class="music-link" href="../music.html">Music</a></li><br>
+    </ul>
+  </div>
+
+      <div class="blog-content-container">
+      <div class="blog-post-title">
       <h2>Arrays & Hashes</h2>
       <h3>A a little overview</h3>
       <h4>25 June 2015</h4>
+      </div>
 
-      <img src="#" alt="#"/>
-
-      <p>
+      <p class="blog-post-p1">
         Arrays are one of the most widely used objects in ruby. They are crucially important and useful because they are a means of storing data and retrieving, deleting and adding new data to a collection. Arrays are basically a list of elements that are stored in between brackets and separated by commas. Several methods are callable on arrays , making it easy for programmers to operate on them. Arrays can hold booleans, integers, strings. These elements of the array are stored individually and may be accessed using the specific index of a desired element. It is important to note that ruby indexes the first value of an array at [0], Therefore, if you wanted to say access the second value in an array, that would be done by doing Array_name[1] and so on.
       </p>
 
-      <p>
+      <p class="blog-post-p2">
         Hashes are similar to arrays, however, they are a collection of key:value combinations. A hash consists of key/ value pairs where any key and any value can be a Ruby object. Hashes are very similar to the dictionaries of JavaScript and other languages and are useful to store and access paired data. Hashes let you perform lookup operations based on keys and allow for complex filtering and selection operations. Hashes are a vital way to store information that must be paired together such as ages, ID numbers, colors, ect.</p>
 
-      <p>Arrays vs. Hashes
+      <p class="blog-post-p3">Arrays vs. Hashes
         Arrays and hashes both allow us to hold objects in collections in organized fashion. An array is an ordered selection of objects ordered in the sense that you can select objects from the collectiond on a consistent, consecutive numerical index. Hashes on the other hand are unordered and store objects in pair, each pair consisting of a key and value. Hashes are very useful for storing and retrieving large amounts of data and information.Overall arrays and hashes are closely related. An array in a sense is a hash where the keys happen to be consecutive integers. Hashes in a sense are arrays where the indexes are allowed to be anything, not just integers. We use hashes and arrays very often in ruby, so its is essential to get familiar with them right now!
       </p>
 

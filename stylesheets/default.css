@@ -115,14 +115,17 @@ li {
 
 footer {
   color: white;
+  height: 6vw;
 }
 
 /* Blog content */
 
 .blog-content-container {
   margin: 0;
-  height: 120em;
+  position: relative;
+  height: 200em;
   width: 100%;
+  bottom: 1.6em;
   background-color: #FCFCF3;
 }
 
@@ -170,4 +173,32 @@ footer {
   width: 20vw;
   border-radius: 3em;
 }
+
+/* Styling for individual blog posts */
+
+.blog-post-title h2 {
+  margin-left: 20%;
+  padding-top: 3em;
+  font-size: 2em;
+}
+
+.blog-post-title h3 {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.3em;
+}
+
+.blog-post-title h4 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.blog-post-p1, .blog-post-p2, .blog-post-p3 {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.2em;
+  padding-top: 1em;
+}
+
+
 
