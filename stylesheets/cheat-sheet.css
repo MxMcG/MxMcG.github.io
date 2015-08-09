@@ -1,0 +1,54 @@
+header {
+    background-color: #4DB8FF;
+    height: 6em;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 2em;
+    color: white;
+}
+
+.top-container {
+    display: inline-block;
+    height: 22em;
+    margin: 0em;
+}
+
+#ruby-column {
+    padding-top: 2em;
+    position: absolute;
+    width: 48%;
+    left: 0;
+    text-align: center;
+    background-color: #FAF7F7;
+}
+
+#javascript-column {
+    position: absolute;
+    padding-top: 2em;
+    width: 48%;
+    right: 0;
+    text-align: center;
+    background-color: white;
+}
+
+ul {
+   width: 80%;
+
+}
+
+li {
+    padding: 1em;
+    border-bottom: solid 1px black;
+    list-style: none;
+}
+
+.bottom-container{
+    padding-top: 2em;
+    background-color: #FAF8F8;
+    text-align: center;
+    margin-top: 5em;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: 35em;
+}

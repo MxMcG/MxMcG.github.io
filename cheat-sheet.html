@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ruby | JS Cheatsheet</title>
+        <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="stylesheets/cheat-sheet.css">
+    </head>
+
+    <body>
+        <header>
+            <h2>Ruby | JS Cheatsheet</h2>
+        </header>
+
+       <div class="top-container">
+           <div id="ruby-column">
+               <h4>Ruby Loops</h4>
+               <ul>
+                   <li>For Loop: for (element) in (array) do #action end</li>
+                   <li>While Loop: while (condition) #action end</li>
+                   <li>Each Loop: object.each do |element| #action end</li>
+                   <li>Times Loop: (number).times do #action end</li>
+                   <li>Until Loop: until (condition) do #action end</li>
+               </ul>
+           </div>
+           <div id="javascript-column">
+               <h4>Javascript Loops</h4>
+               <ul>
+                   <li>For Loop: for (var i=0 [initailize loop]; i !== var_value [checks whether loop continues]; i++[updates state of loop]) {(#action)}; </li>
+                   <li>While Loop: While (condition) {#action};</li>
+                   <li>For/In Loop: for ((element) in (object)){#action};</li>
+                   <li>Do/While Loop: do {#action} while (condition);</li>
+               </ul>
+           </div>
+       </div>
+
+       <div class="bottom-container">
+           <h4>Ruby Enumerables</h4>
+             <ul>
+                   <li> .all? { |object| ... } => Sends all elements to the block and returns true if every block returned true. </li>
+                   <li>.any? { |object| ... } => Sends all elements to the block and returns true if any block returned true.</li>
+                 <li> .map { |object| ... } => Sends all elements to the block and returns a new Array with each result. </li>
+                   <li> .find { |object| ... }
+.detect { |object| ... } => Sends all elements to the block and returns the first element for which the blocks result is not false  </li>
+                   <li>.find_all { |object| ... }
+.select { |object| ... } => Sends all elements to the block and returns all elements for which the block is not false</li>
+                   <li>.grep => Returns a new Array with all elements for which pattern === element</li>
+                   <li>.include? => Returns true if the collection includes object</li>
+                   <li>.sort [{|object, object| ... }] => Returns the Array, sorted by each elements <=> or by the block</li>
+               </ul>
+       </div>
+    </body>
+</html>
