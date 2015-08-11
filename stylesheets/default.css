@@ -17,7 +17,7 @@ a {
 
 #nav, footer {
   padding: 0.5em 0;
-  background-color: #00585F;
+  background-color: #32385C;
 }
 
 #nav a {
@@ -32,8 +32,9 @@ a:hover {
 /* Header content */
 
 header {
-  background-color: #00585F;
+  background-color: #32385C;
   padding: 2.5%;
+
 }
 
 header a {
@@ -48,6 +49,7 @@ header a {
 h1 {
   margin: 0;
   font-size: 2.75em;
+  float: left;
 }
 
 .contact {
@@ -60,7 +62,7 @@ h1 {
 }
 
 ul {
-  text-align: center;
+
   padding: 0;
 }
 
@@ -75,47 +77,69 @@ li {
 #content-container {
   overflow: auto;
   color: black;
-  height: 150vw;
+  ;
   background-color: #FCFCF3;
 }
 
-#homepage-txt1, #homepage-txt2 {
-  position: absolute;
-  width: 35vw;
+#homepage-img1 {
+    display: inline-block;
+    border-radius: 0;
+    width: 100%;
+    height: 35vw;
+}
+
+#homepage-container-top, #homepage-container-middle {
+  height: 45vw;
+  text-align: center;
+  font-size: 2.6vw;
+  padding-top: 4.5vw;
+}
+
+h3 {
   margin: 0;
 }
 
-#homepage-txt1 {
-  left: 57vw;
-  top: 30vw;
-}
-
-#homepage-txt2 {
-  left: 9vw;
-  top: 70vw;
-}
-
-#homepage-img1 {
-  width: 35vw;
-  border-radius: 1.5em;
+#top-column-right {
   position: absolute;
-  top: 30vw;
-  left: 9vw;
+  right: 10vw;
+  background-color: white;
+  height: 22vw;
+  width: 33.5%;
+  margin-top: 12vw;
 }
 
-#homepage-img2 {
-  width: 35vw;
-  border-radius: 1.5em;
+#top-column-left {
   position: absolute;
-  top: 70vw;
-  left: 57vw;
+  left: 10vw;
+  background-color: white;
+  height: 22vw;
+  width: 31.5%;
+  margin-top: 3vw;
+}
+
+#homepage-container-middle {
+  background-color: lightgray;
+}
+
+.mid-column {
+  background-color: white;
+  height: 30vw;
+  margin: 1.5vw;
+  display: inline-block;
+  width: 28.5%;
+  margin-top: 6vw;
+
 }
 
 /* Footer content */
 
 footer {
   color: white;
-  height: 6vw;
+  height: 10vw;
+}
+footer p {
+  position: relative;
+  top: 2vw;
 }
 
 /* Blog content */
@@ -198,6 +222,12 @@ footer {
   margin-right: 20%;
   font-size: 1.2em;
   padding-top: 1em;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+
 }
 
 
