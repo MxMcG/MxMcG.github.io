@@ -1,0 +1,52 @@
+#music-content-container {
+  height: 80em;
+  background-color: #FCFCF3;
+}
+
+#music-content {
+  background-color: white;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: lightgray 1px solid;
+  border-radius: 4px;
+  top: 10%;
+}
+
+#music-list {
+  text-align: center;
+  color: black;
+  vertical-align:top;
+}
+
+#soundcloud {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 2vw;
+}
+
+#reverbnation {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 2vw;
+}
+
+#music-list li {
+  vertical-align:top;
+  display: inline-block;
+  background-color: #F5F2F2;
+  width: 40%;
+  height: 25vw;
+  margin: 2vw;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+#music-list li:hover {
+  transform: scale(1.1, 1.1);
+  transition: .5s ease-in-out;
+}

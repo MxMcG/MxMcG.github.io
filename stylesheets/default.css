@@ -4,18 +4,25 @@ body {
 width: 100%;
 margin: 0 auto;
 font-family: lato;
+
+
 }
 
 a {
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 #nav, #content, header, footer {
   text-align: center;
 }
 
-#nav, footer {
+#nav {
+  padding: 0.5em 0;
+
+}
+
+footer {
   padding: 0.5em 0;
   background-color: #32385C;
 }
@@ -32,14 +39,28 @@ a:hover {
 /* Header content */
 
 header {
+  width: 100%;
   background-color: #32385C;
-  padding: 2.5%;
+  z-index: 15;
+  position: absolute;
+  top: 0;
+  padding: 2vw;
+}
 
+#header-back-color {
+  background-color: #32385C;
+  height: 16vw;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: .7;
 }
 
 header a {
   color: white;
   text-decoration: none;
+
 }
 
 #nav a:hover {
@@ -50,19 +71,26 @@ h1 {
   margin: 0;
   font-size: 2.75em;
   float: left;
+  opacity: none;
+  color: white;
+  position: relative;
+  top: 2vw;
+  left: 2vw;
 }
 
 .contact {
   position: absolute;
   right: 3%;
+  color: white;
 }
 
 #nav {
   color: white;
+
 }
 
 ul {
-
+  z-index: 17;
   padding: 0;
 }
 
@@ -70,6 +98,7 @@ li {
   display: inline;
   padding: 0.5em;
   font-size: 1.25em;
+  z-index: 17;
 }
 
 /* Main content */
@@ -79,20 +108,22 @@ li {
   color: black;
   ;
   background-color: #FCFCF3;
-}
+  }
 
 #homepage-img1 {
-    display: inline-block;
+
+    z-index: 4;
     border-radius: 0;
     width: 100%;
-    height: 35vw;
+    height: 55vw;
 }
 
 #homepage-container-top, #homepage-container-middle {
-  height: 45vw;
+  height: 55vw;
   text-align: center;
   font-size: 2.6vw;
   padding-top: 4.5vw;
+
 }
 
 h3 {
@@ -108,6 +139,12 @@ h3 {
   margin-top: 12vw;
 }
 
+#top-column-right p {
+  font-size: 1.8vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
 #top-column-left {
   position: absolute;
   left: 10vw;
@@ -115,6 +152,14 @@ h3 {
   height: 22vw;
   width: 31.5%;
   margin-top: 3vw;
+  text-align: left;
+
+}
+
+#top-column-left p {
+  font-size: 1.8vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 #homepage-container-middle {
@@ -128,7 +173,24 @@ h3 {
   display: inline-block;
   width: 28.5%;
   margin-top: 6vw;
+  vertical-align: top;
+  border-radius: 4px;
+}
 
+.mid-column p {
+border-bottom: 1px black solid;
+padding-bottom: 2vw;
+}
+
+.skills-list {
+  position: relative;
+  bottom: 2vw;
+  font-size: 1.5vw;
+  display: block;
+}
+
+.skills-list li {
+  display: block;
 }
 
 /* Footer content */
@@ -162,7 +224,7 @@ footer p {
   color: black;
   position: relative;
   left: 15vw;
-  top: 10vw;
+  top: 14vw;
   padding-bottom: 3vw;
   margin-top: 2em;
   border-bottom: 1px black solid;
@@ -179,6 +241,7 @@ footer p {
   top: 0vw;
   left: 25vw;
   font-size: 1.3em;
+  color: black;
 }
 
 .blog-info p {
@@ -191,6 +254,7 @@ footer p {
   position: absolute;
   top: 0em;
   right: 1.5em;
+  color: black;
 }
 
 .blog-img {
@@ -226,8 +290,21 @@ footer p {
 
 /* Media Queries */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+  #nav {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 950px) {
+  #blog-date {
+    position: relative;
+    bottom: 4vw;
+    left: 5vw;
+  }
 }
 
 
