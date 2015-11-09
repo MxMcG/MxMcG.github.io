@@ -24,23 +24,24 @@ a {
 
 footer {
   padding: 0.5em 0;
-  background-color: #32385C;
+  background-color: #044159;
 }
 
 #nav a {
   text-decoration: none;
-  color: white;
+  color: #DEDEDE;
 }
 
 a:hover {
- color: orange;
+ color: #6F8CA6;
+border-bottom: #6F8CA6 1.5px solid;
 }
 
 /* Header content */
 
 header {
   width: 100%;
-  background-color: #32385C;
+  background-color: white;
   z-index: 15;
   position: absolute;
   top: 0;
@@ -48,7 +49,7 @@ header {
 }
 
 #header-back-color {
-  background-color: #32385C;
+  background-color: #FCFFF5;
   height: 16vw;
   z-index: 10;
   position: absolute;
@@ -64,18 +65,14 @@ header a {
 }
 
 #nav a:hover {
- color: orange;
+ color: #6F8CA6;
 }
 
-h1 {
+h1 a {
   margin: 0;
-  font-size: 2.75em;
+  font-size: 1.5em;
   float: left;
-  opacity: none;
-  color: white;
-  position: relative;
-  top: 2vw;
-  left: 2vw;
+  color: #DEDEDE;
 }
 
 .contact {
@@ -85,8 +82,12 @@ h1 {
 }
 
 #nav {
-  color: white;
+  color: #FCFFF5;
 
+}
+
+#about {
+  color: #FCFFF5
 }
 
 ul {
@@ -107,7 +108,7 @@ li {
   overflow: auto;
   color: black;
   ;
-  background-color: #FCFCF3;
+  background-color: #FCFCF3
   }
 
 #homepage-img1 {
@@ -128,6 +129,7 @@ li {
 
 h3 {
   margin: 0;
+  color: #6F8CA6;
 }
 
 #top-column-right {
@@ -163,7 +165,7 @@ h3 {
 }
 
 #homepage-container-middle {
-  background-color: lightgray;
+  background-color: #6BB0BF
 }
 
 .mid-column {
@@ -296,6 +298,9 @@ footer p {
   }
   .contact {
     display: none;
+  }
+  h1 a {
+    margin-left: 2em;
   }
 }
 
